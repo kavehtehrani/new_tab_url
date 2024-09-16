@@ -1,0 +1,39 @@
+html,
+body {
+    font-size: 0.9em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #bababa;
+    background-color: #3466be;
+    border-bottom: 3px solid #585858;
+    margin: 0;
+    padding-left: 0.5rem;
+    white-space: nowrap;
+}
+
+.options {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#url {
+    font-size: 1.1rem;
+}
